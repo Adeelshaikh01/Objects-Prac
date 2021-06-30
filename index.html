@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name<input type="text" id="name" name="name"></label>
+        <br>
+        <label for="address">Address<input type="text" id="address" name="address">
+        </label>
+        <br>
+       <label for="education">Choose education:</label>
+        <select name="education" id="education">
+          <option value="matric">matric</option>
+          <option value="intermediate">intermediate</option>
+          <option value="bachelors">bachelors</option>
+          <option value="master">master</option>
+        </select>
+        <br><br>
+        <label for="profession">Choose profession:</label>
+        <select name="profession" id="profession">
+          <option value="employee">employee</option>
+          <option value="business owner">business owner</option> 
+        </select>
+         <br><br> 
+        <label for="male">Male<input type="radio" id="genderInfo" name="gender" value="Male"></label>
+       
+        <label for="female">Female<input type="radio" id="genderInfo" name="gender" value="Female"></label>
+      
+        <br><br>
+        <input type="submit" value="Submit" onclick="valueGet()">
+      </form>
+      
+    
+    <script src="app.js"></script>
+</body>
+</html>
